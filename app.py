@@ -54,7 +54,7 @@ def chatwoot_webhook():
     }
     payload = {
         "message_type": "outgoing",
-        "content": "Aquí tienes el catálogo solicitado."
+        "content": ""
     }
 
     try:
